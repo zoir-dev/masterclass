@@ -13,7 +13,7 @@ const Advantage = () => {
         <div className='flex justify-center flex-col md:flex-row items-center px-4'>
             <div className='z-20'>
                 <SlideProvider direction='left'>
-                    <div className="p-8 bg-white w-[90%] sm:w-max rounded-xl flex md:flex-col gap-8 -mb-20 md:mb-0 md:-mr-20 ">
+                    <div className="mx-auto p-4 sm:p-8 bg-white w-[90%] sm:w-max rounded-xl flex md:flex-col gap-8 -mb-20 md:mb-0 md:-mr-20 ">
                         <a href="https://www.instagram.com/ka.mronbe?igsh=MTEyc2ZjeGJibXRuYw==" target='_blank'>
                             <Image src={user1} alt="user1" />
                         </a>
