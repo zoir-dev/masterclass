@@ -17,16 +17,16 @@ const Result = () => {
                     Master-classdan keyin siz shu natijalarga erishasiz.
                 </h1>
             </SlideProvider>
-            <div className='flex flex-wrap gap-4 sm:gap-8 justify-center'>
-                {data.map((d, index) => (
-                    <SlideProvider key={index}>
-                        <div className='w-full sm:max-w-[290px] bg-[#2E2E2E] rounded-xl flex flex-col gap-5 items-center py-4 sm:py-5 px-4 sm:px-7'>
+            <SlideProvider>
+                <div className='flex flex-wrap gap-4 sm:gap-8 justify-center'>
+                    {data.map((d, index) => (
+                        <div key={index} className='w-full sm:max-w-[290px] bg-[#2E2E2E] rounded-xl flex flex-col gap-5 items-center py-4 sm:py-5 px-4 sm:px-7'>
                             <Image src={d.img} alt='alt' className='max-w-[60px] sm:max-w-full' />
                             <p className='text-2xl text-center'>{d.body}</p>
                         </div>
-                    </SlideProvider>
-                ))}
-            </div>
+                    ))}
+                </div>
+            </SlideProvider>
             <SlideProvider>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSd3uQQbEsV1hLVxvRefmeeDyGIbkdg-E9WLh-wp3w5v8HElNg/viewform?usp=sharing" target='_blank'>
                     <Image src={band} alt="login" className='max-w-[300px] lg:max-w-full h-auto' />

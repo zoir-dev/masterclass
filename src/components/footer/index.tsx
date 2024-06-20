@@ -12,10 +12,10 @@ const Footer = () => {
                     <p className='text-xl md:text-2xl font-medium'>Unda ijtimoiy tarmoqlar orqali bog’laning</p>
                 </div>
                 <div className='flex gap-16'>
-                    <a href="">
+                    <a href="https://t.me/montajdarslari">
                         <Image src={tg} alt='tg' />
                     </a>
-                    <a href="">
+                    <a href="https://www.instagram.com/ubayda.be?igsh=Y3FycjE5b3c4NG16">
                         <Image src={inst} alt='insta' />
                     </a>
                 </div>
